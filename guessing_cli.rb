@@ -3,9 +3,9 @@
 def run_guessing_game
   num = rand(1..6)
   puts "Guess a number between 1 and 6."
-  input = gets.chomp.to_i
+  input = gets.chomp
 
-  if input == num
+  if input.to_i == num
     puts "You guessed the correct number!"
   elsif input.downcase.include?("exit")
     puts "Goodbye!"
