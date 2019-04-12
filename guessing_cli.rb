@@ -16,7 +16,7 @@ def take_input
 
   if
 
-  puts
+  puts msg
 end
 
 
