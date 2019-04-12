@@ -10,7 +10,7 @@ def take_input
     puts "You guessed the correct number!"
   else
     puts "The com"
-    
+
 
   puts message()
 end
