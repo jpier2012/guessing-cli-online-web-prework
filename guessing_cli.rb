@@ -2,7 +2,7 @@
 # unless a winning message is passed, it will print the default incorrect input notification
 
 def message(msg = "Incorrect input, please try again.")
-  puts msg
+  msg
 end
 
 ###########
