@@ -9,6 +9,7 @@ def run_guessing_game
     puts "You guessed the correct number!"
   elsif input.downcase.include?("exit")
     puts "Goodbye!"
+    exit
   else
     puts "The compuer guessed #{num}."
   end
