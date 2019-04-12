@@ -1,6 +1,5 @@
 # Code your solution here!
 def message(msg = "Incorrect input, please try again.")
-
   msg
 end
 
